@@ -1,0 +1,200 @@
+/* Import a CSS reset or normalize to ensure consistent styles across browsers */
+@import url('./reset.css');
+/* Replace 'reset.css' with the path to your reset or normalize file */
+
+/* Global styles */
+body {
+    /* padding-top: 100px; */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+a {
+    color: #007bff;
+    /* Change link color to match your design */
+}
+
+/* Header styles */
+header {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* Navigation styles */
+
+nav {
+    /* position: fixed; */
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 1rem;
+}
+
+nav a {
+    flex-basis: 100%;
+    padding: 1rem;
+    /* border: 1px solid #ccc; */
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav a.active {
+    background-color: red; /* Change to the desired highlight color */
+    color: #fff;
+    border-radius: 4px; /* Add some rounded corners for better visual appeal */
+  }
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section styles */
+section {
+    padding: 2rem 1rem;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Project styles */
+.project {
+    margin-bottom: 2rem;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.project p {
+    font-size: 1.1rem;
+}
+
+.project-links a {
+    display: inline-block;
+    margin-right: 1rem;
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Footer styles */
+footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+/* Media Queries (Add responsive styles as needed) */
+
+/* phone */
+
+@media (max-width: 575.98px) {
+    body {
+        font-size: 16px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav a {
+        flex-basis: 48%; 
+        margin-bottom: 1rem; 
+      }
+    
+
+    section {
+        padding: 1rem;
+    }
+
+    .project h3 {
+        font-size: 1.2rem;
+    }
+}
+
+/* tablet */
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+    body {
+        font-size: 18px;
+    }
+
+    nav a {
+        flex-basis: 48%; 
+        margin-bottom: 0; 
+      }
+
+    section {
+        padding: 1.5rem;
+    }
+}
+
+/* desktops */
+
+@media (min-width: 992px) {
+    body {
+        font-size: 20px;
+    }
+
+    section {
+        padding: 2rem;
+    }
+
+    .project h3 {
+        font-size: 1.5rem;
+    }
+}
