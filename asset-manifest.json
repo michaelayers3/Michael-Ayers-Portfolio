@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.16a4bb55.css",
+    "main.js": "/React-Portfolio/static/js/main.53b62276.js",
+    "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/megc.jpg": "/React-Portfolio/static/media/megc.2de476a860182d8ddfed.jpg",
+    "static/media/Ayers CV4.pdf": "/React-Portfolio/static/media/Ayers CV4.963121afed111c687d49.pdf",
+    "static/media/Work-Day-Scheduler.png": "/React-Portfolio/static/media/Work-Day-Scheduler.81f08d31b9764c6481a2.png",
+    "static/media/Weather-Dashboard.png": "/React-Portfolio/static/media/Weather-Dashboard.31856a4ecbcee303772e.png",
+    "static/media/JS quiz.png": "/React-Portfolio/static/media/JS quiz.2c82b9ebe7fb3a918b6f.png",
+    "static/media/Password-Generator.png": "/React-Portfolio/static/media/Password-Generator.ee171d0ac3071ecc8201.png",
+    "static/media/WTF.PNG": "/React-Portfolio/static/media/WTF.f9e15072d3376f474a35.PNG",
+    "static/media/remind.PNG": "/React-Portfolio/static/media/remind.89bf8668a65336ae8ff8.PNG",
+    "index.html": "/React-Portfolio/index.html",
+    "main.16a4bb55.css.map": "/React-Portfolio/static/css/main.16a4bb55.css.map",
+    "main.53b62276.js.map": "/React-Portfolio/static/js/main.53b62276.js.map",
+    "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16a4bb55.css",
+    "static/js/main.53b62276.js"
+  ]
+}
