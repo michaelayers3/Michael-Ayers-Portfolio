@@ -33,6 +33,7 @@ header h1 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
   text-align: center;
+  /* position: fixed; */
 }
 
 /* Navigation styles */
@@ -76,15 +77,48 @@ nav a:hover {
 .about {
   background-color: black;
   color: #fff;
- 
+  flex-direction: row; /* Align the image and details vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  text-align: center; /* Center text content inside details */
+}
 
+.about img {
+  max-width: 50%;
+  height: 50%;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-wrapper {
+  justify-content: center;
+  position: relative;
+  overflow: hidden; /* Hide the overflow of the details when not hovered */
+}
+
+.image-wrapper:hover .details {
+  transform: translateY(0);
+}
+
+.details {
+  align-items: center ;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 6.5px;
+  color: white;
+  transform: translateY(100%); /* Initially, the details are hidden below the image */
+  transition: transform 0.5s ease-in-out; /* Add a transition effect for smooth animation */
 }
 
 /* Section styles */
 section h2 {
+  text-align: center;
   background-color: black;
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 section p {
@@ -96,34 +130,138 @@ section p {
 .project {
   margin-bottom: 2rem;
   background-color: black;
+  position: relative;
+  display: flex;
+  flex-direction: row; /* Align the image and details vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  text-align: center; /* Center text content inside details */
+}
+.project-main {
+  margin-bottom: 2rem;
+  background-color: black;
+  position: relative;
+  display: flex;
+  flex-direction: column; /* Align the image and details vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  text-align: center; /* Center text content inside details */
+
+}
+.image-wrapper {
+  justify-content: center;
+  position: relative;
+  overflow: hidden; /* Hide the overflow of the details when not hovered */
 }
 
+.image-wrapper:hover .details {
+  transform: translateY(0);
+}
+
+.details {
+  align-items: center ;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 6.5px;
+  color: white;
+  transform: translateY(100%); /* Initially, the details are hidden below the image */
+  transition: transform 0.5s ease-in-out; /* Add a transition effect for smooth animation */
+}
+
+.portfolio {
+align-items: center;
+}
 .project h3 {
-  font-size: 1.5rem;
+  /* visibility: hidden; */
+  font-size: 2rem;
   margin-bottom: 0.5rem;
 }
+/* .project h3:hover {
+  /* visibility: visible; */
+
 
 .project img {
-  max-width: 100%;
+
+  max-width: 50%;
+  max-height: 50%;
   height: auto;
   margin-bottom: 1rem;
+  transition: transform 0.3s ease-in-out;
 }
 
 .project p {
+  /* visibility: hidden; */
   font-size: 1.1rem;
 }
 
 .project-links a {
+  /* visibility: hidden; */
   margin-right: 1rem;
-  color: #007bff;
+  color: white;
   text-decoration: none;
 }
 
+.contact {
+  display: block;
+  flex-direction: row; /* Align the image and details vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  text-align: center; /* Center text content inside details */
+}
+
+.contact h2 {
+  display: block;
+  flex-direction: row; /* Align the image and details vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  text-align: center; /* Center text content inside details */
+  font-size: 2.5rem;
+}
+
+.form-wrapper label {
+  display: block;
+  flex-direction: row; /* Align the image and details vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  text-align: center; /* Center text content inside details */
+}
+
+.resume {
+  display: block;
+  flex-direction: row; /* Align the image and details vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  text-align: center; /* Center text content inside details */
+}
+
+.resume h2 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.resume a {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.resume h3 {
+  font-size: 2rem;
+  padding: 1.5rem;
+  padding-bottom: 0;
+}
+
+.resume ul {
+  padding: 10px;
+  margin-bottom: 1.5rem;
+}
 /* Footer styles */
 footer {
   background-color:black;
   color: #fff;
-  padding: 20px 0;
+  padding-top: 20px 0;
   text-align: center;
 }
 
@@ -132,13 +270,14 @@ footer {
   margin: 0 auto;
 }
 
-.social-links {
-  margin-bottom: 10px;
-}
+/* .social-links {
+  /* margin-bottom: 10px;
+ } */
+
 
 .social-links a {
   color: #fff;
-  font-size: 24px;
+  font-size: 15px;
   margin-right: 10px;
 }
 
@@ -147,9 +286,20 @@ footer {
 }
 
 footer p {
-  font-size: 1rem;
+  font-size: 15px;
 }
 
+.submit-btn {
+  font-family: 'Pricedown Bl', Arial, sans-serif;
+
+  background-color: black;
+  border: none;
+  color: gold;
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  border-radius: 4px;
+  cursor: crosshair;
+}
 .error {
   color: red;
   font-size: 14px;

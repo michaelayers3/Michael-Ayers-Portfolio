@@ -91,9 +91,10 @@ const Contact = () => {
 
 
     return (
-        <div>
+        <div className = 'contact'>
             <h2>Contact</h2>
             <form onSubmit={handleSubmit}>
+                <div className = 'form-wrapper'>
                 <div>
                     <label htmlFor="name">Name:</label>
                     <input
@@ -131,7 +132,8 @@ const Contact = () => {
                     />
                     {messageError && <p className="error">Message is required</p>}
                 </div>
-                <button type="submit">Submit</button>
+                </div>
+                <button className= 'submit-btn' type="submit">Submit</button>
             </form>
         </div>
     );
