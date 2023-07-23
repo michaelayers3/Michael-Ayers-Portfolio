@@ -1,6 +1,6 @@
 
 import React from 'react';
-import meImg from '../images/me.jpeg';
+import meImg from '../images/megc.jpg';
 
 const AboutMe = () => {
   return (
@@ -9,7 +9,7 @@ const AboutMe = () => {
       <div className = 'image-wrapper'>
       <img src ={meImg} alt = 'itsme' />
       <div className ='details'>
-      <p>Here's a short bio about me...</p>
+      <p>I love coding, basketball, skateboarding, and yoga.</p>
       </div>
       </div>
       {/* Add other content for the "About Me" section */}

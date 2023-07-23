@@ -9,7 +9,7 @@ import Resume from './Resume/Resume.js';
 import './reset.css';
 import './styles.css';
 import remindImage from './images/remind.PNG';
-import meImage from './images/JS quiz.png';
+import jsImage from './images/JS quiz.png';
 import WTFimage from './images/WTF.PNG';
 import WorkDay from './images/Work-Day-Scheduler.png';
 import pwImage from './images/Password-Generator.png';
@@ -31,7 +31,7 @@ const App = () => {
     {
       title: 'JavaScript Quiz',
       description: 'Simple quiz using JavaScript',
-      image: meImage,
+      image: jsImage,
       deployedLink: 'https://michaelayers3.github.io/Web-APIs-Code-Quiz/',
       githubLink: 'https://github.com/michaelayers3/Web-APIs-Code-Quiz',
     },
