@@ -11,6 +11,9 @@ const Footer = () => {
                     <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-linkedin"></i>
                     </a>
+                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-twitter"></i>
+                    </a>
                 </div>
                 <p>&copy; {new Date().getFullYear()} Michael Ayers. All rights reserved.</p>
             </div>

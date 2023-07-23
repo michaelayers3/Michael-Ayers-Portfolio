@@ -10,6 +10,7 @@ import Contact from './Contact/Contact.js';
 import Resume from './Resume/Resume.js';
 import './reset.css';
 import './styles.css';
+// import * as images from './images';
 
 const App = () => {
   const [showAboutMe, setShowAboutMe] = useState(true);
@@ -19,16 +20,16 @@ const App = () => {
 
   const projects = [
     {
-      title: 'Project 1',
-      description: 'Description of Project 1',
-      image: 'project1-image-url.jpg',
-      deployedLink: 'https://project1-demo.com',
-      githubLink: 'https://github.com/your-username/project1',
+      title: 'Remind Me',
+      description: 'Email based reminder app',
+      image: './images/remind.PNG',
+      deployedLink: 'https://monthlyreminders.herokuapp.com/',
+      githubLink: 'https://github.com/jmichaeldavis/remind-me',
     },
     {
       title: 'Project 2',
       description: 'Description of Project 2',
-      image: 'project2-image-url.jpg',
+      image: './images/me.jpg',
       deployedLink: 'https://project2-demo.com',
       githubLink: 'https://github.com/your-username/project2',
     },
@@ -52,7 +53,6 @@ const App = () => {
 
       {showPortfolio && (
         <section id="portfolio">
-          {/* Your Portfolio content goes here */}
           <h2>Portfolio</h2>
           <div className="portfolio-section">
             {projects.map((project, index) => (
