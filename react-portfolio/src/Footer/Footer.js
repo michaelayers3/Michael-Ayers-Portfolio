@@ -8,11 +8,8 @@ const Footer = () => {
                     <a href="https://github.com/michaelayers3" target='_blank' rel='noopener noreferrer'>
                         <i className='fab fa-github'></i>
                     </a>
-                    <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://linkedin.com/michael-ayers-6579a0287/" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
-                        <i className="fab fa-twitter"></i>
                     </a>
                 </div>
                 <p>&copy; {new Date().getFullYear()} Michael Ayers. All rights reserved.</p>
