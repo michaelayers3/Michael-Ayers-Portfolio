@@ -1,11 +1,13 @@
 import React from 'react';
 import myResume from './Ayers CV4.pdf';
+import resume2 from './AYERSCV.docx';
 const Resume = () => {
   return (
     <div className = 'resume'>
       <h2>Resume</h2>
       {/* Add a link to your resume for download */}
-      <a href={myResume} download>
+     
+      <a href={resume2} download>
         Download My Resume
       </a>
       <h3>Proficiencies</h3>
