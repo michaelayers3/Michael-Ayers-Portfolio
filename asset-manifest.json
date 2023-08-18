@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Michael-Ayers-Portfolio/static/css/main.f7617168.css",
-    "main.js": "/Michael-Ayers-Portfolio/static/js/main.5169a903.js",
+    "main.js": "/Michael-Ayers-Portfolio/static/js/main.4c7dcfe5.js",
     "static/js/787.4b91d307.chunk.js": "/Michael-Ayers-Portfolio/static/js/787.4b91d307.chunk.js",
     "static/media/megc.jpg": "/Michael-Ayers-Portfolio/static/media/megc.2de476a860182d8ddfed.jpg",
     "static/media/headshot.jpeg": "/Michael-Ayers-Portfolio/static/media/headshot.5957244fc5405a9f39ab.jpeg",
@@ -15,11 +15,11 @@
     "static/media/remind.PNG": "/Michael-Ayers-Portfolio/static/media/remind.89bf8668a65336ae8ff8.PNG",
     "index.html": "/Michael-Ayers-Portfolio/index.html",
     "main.f7617168.css.map": "/Michael-Ayers-Portfolio/static/css/main.f7617168.css.map",
-    "main.5169a903.js.map": "/Michael-Ayers-Portfolio/static/js/main.5169a903.js.map",
+    "main.4c7dcfe5.js.map": "/Michael-Ayers-Portfolio/static/js/main.4c7dcfe5.js.map",
     "787.4b91d307.chunk.js.map": "/Michael-Ayers-Portfolio/static/js/787.4b91d307.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f7617168.css",
-    "static/js/main.5169a903.js"
+    "static/js/main.4c7dcfe5.js"
   ]
 }
