@@ -3,9 +3,19 @@
   "name": "Michael Ayers Portfolio",
   "icons": [
     {
-      "src": "ma.ico",
-      "sizes": "32x30",
-      "type": "image/x-icon"
+      "src": "16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "48.png",
+      "sizes": "48x48",
+      "type": "image/png"
     },
     {
       "src": "192.png",
