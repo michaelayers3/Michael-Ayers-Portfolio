@@ -27,7 +27,7 @@ const App = () => {
       description: 'React based app for designing websites',
       image: designerAI,
       deployedLink: 'https://designer-ai-a4b729b9dfd7.herokuapp.com/',
-      githubLink: 'https://github.com/michaelayers3/project-3',
+      githubLink: 'https://github.com/michaelayers3/designer-ai',
     },
     {
       title: 'Remind Me',
