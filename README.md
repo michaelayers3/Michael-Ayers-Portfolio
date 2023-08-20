@@ -16,7 +16,7 @@
  * [Questions](#questions)
                 
  ## Installation
-[The site itself can be accessed here.](https://michaelayers3.github.io/React-Portfolio/)
+[The site itself can be accessed here.](https://michaelayers3.github.io/Michael-Ayers-Portfolio/)
     
  To run the code locally, you will need to clone the repository. 
 To install necessary dependencies, run the following command:
