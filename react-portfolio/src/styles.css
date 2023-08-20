@@ -91,6 +91,15 @@ nav a:hover {
   transition: transform 0.3s ease-in-out;
 }
 
+@media (max-width: 575.98px) {
+}.about img {
+  max-width: 25%;
+  max-height: 25%;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+  
+
 .image-wrapper {
   justify-content: center;
   position: relative;
