@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Michael-Ayers-Portfolio/static/css/main.f7617168.css",
-    "main.js": "/Michael-Ayers-Portfolio/static/js/main.4c7dcfe5.js",
+    "main.css": "/Michael-Ayers-Portfolio/static/css/main.2ae83cea.css",
+    "main.js": "/Michael-Ayers-Portfolio/static/js/main.8cd77c07.js",
     "static/js/787.4b91d307.chunk.js": "/Michael-Ayers-Portfolio/static/js/787.4b91d307.chunk.js",
     "static/media/megc.jpg": "/Michael-Ayers-Portfolio/static/media/megc.2de476a860182d8ddfed.jpg",
     "static/media/headshot.jpeg": "/Michael-Ayers-Portfolio/static/media/headshot.5957244fc5405a9f39ab.jpeg",
     "static/media/Work-Day-Scheduler.png": "/Michael-Ayers-Portfolio/static/media/Work-Day-Scheduler.81f08d31b9764c6481a2.png",
     "static/media/Weather-Dashboard.png": "/Michael-Ayers-Portfolio/static/media/Weather-Dashboard.31856a4ecbcee303772e.png",
+    "static/media/AYERSRESUME.pdf": "/Michael-Ayers-Portfolio/static/media/AYERSRESUME.e1ef51aabe8e6356a389.pdf",
     "static/media/JS quiz.png": "/Michael-Ayers-Portfolio/static/media/JS quiz.2c82b9ebe7fb3a918b6f.png",
-    "static/media/AYERSCV.pdf": "/Michael-Ayers-Portfolio/static/media/AYERSCV.daa65998bb7e171193ab.pdf",
     "static/media/Password-Generator.png": "/Michael-Ayers-Portfolio/static/media/Password-Generator.ee171d0ac3071ecc8201.png",
     "static/media/designerai.png": "/Michael-Ayers-Portfolio/static/media/designerai.432d61c7e3463cde3ba7.png",
     "static/media/WTF.PNG": "/Michael-Ayers-Portfolio/static/media/WTF.f9e15072d3376f474a35.PNG",
     "static/media/remind.PNG": "/Michael-Ayers-Portfolio/static/media/remind.89bf8668a65336ae8ff8.PNG",
     "index.html": "/Michael-Ayers-Portfolio/index.html",
-    "main.f7617168.css.map": "/Michael-Ayers-Portfolio/static/css/main.f7617168.css.map",
-    "main.4c7dcfe5.js.map": "/Michael-Ayers-Portfolio/static/js/main.4c7dcfe5.js.map",
+    "main.2ae83cea.css.map": "/Michael-Ayers-Portfolio/static/css/main.2ae83cea.css.map",
+    "main.8cd77c07.js.map": "/Michael-Ayers-Portfolio/static/js/main.8cd77c07.js.map",
     "787.4b91d307.chunk.js.map": "/Michael-Ayers-Portfolio/static/js/787.4b91d307.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7617168.css",
-    "static/js/main.4c7dcfe5.js"
+    "static/css/main.2ae83cea.css",
+    "static/js/main.8cd77c07.js"
   ]
 }
